@@ -8,13 +8,16 @@ h5 {font-size: 1.5em;}
 
 
 .bg-body-primary {background-color: #ececec;
-                }
+         }
 
-.bg-secondary-color {color: #808F86}
+.bg-secondary-color {color: #808F86
+        }
 
-.nav-item .active {border-bottom: 1px solid rgb(216, 180, 0);}
+.nav-item .active {border-bottom: 1px solid rgb(216, 180, 0);
+        }
 
-.navbar {padding: 2em;border-bottom: 5px solid rgb(216, 180, 0);}
+.navbar {padding: 2em;border-bottom: 5px solid rgb(216, 180, 0);
+        }
 
 .navbar i {font-size: 2em;
         padding: 0.2em;
@@ -26,53 +29,49 @@ h5 {font-size: 1.5em;}
 .navbar-nav > li{
     margin-left:30px;
     margin-right:30px;
- }
+                }
+
 .cent5 {margin-top: 20em;
        }
-.navbar a:hover {border-bottom: 1px solid rgb(216, 180, 0);}
+.navbar a:hover {border-bottom: 1px solid rgb(216, 180, 0);
+                }
 
 .bgd {background-color: rgb(102, 96, 53);
     height:20em;
-margin-top;}
+         }
 
-.card i {font-size: 2.6em;}
-.card {border-radius: 0;} 
+.card i {font-size: 2.6em;
+        }
+
+.card {border-radius: 0;
+        } 
 
 .text-link {text-decoration: none;
         font-size: 1.5em;
         text-shadow: 1px 1px 2px grey;
         color: white;
-        margin-bottom: 2.6em;}
-
-
+       margin-bottom: 2.6em;
+         }
+        
+        
+#carouselExampleCaptions {margin-top: 4.7em;
+        }
 
 .btn-primary {border-radius: 0;
             background-color: rgb(231, 202, 57) ;
             border: #ececec;
-        }
-
-.btn-primary:hover {background-color: rgb(100, 90, 75);
                   }
 
-                  
-
-#carouselExampleCaptions {margin-top: 4.7em;}
-
-
+.btn-primary:hover {background-color: rgb(100, 90, 75);
+                 }
 
 .text-editing {font-size: 2.5em;
                 font-style: italic;
-                color;
                 text-align: center;}
   
                 .col {border: 1px solid red;}
-                .col {border: 1px solid rgb(0, 8, 255);}
-
-
-  
-
-
-
+                .col {border: 1px solid rgb(0, 8, 255);
+                }
 
 /* SMALL DEVICES */ @media only screen and (max-width: 600px) {
     #carouselExampleCaptions {margin-top: 8em;}
