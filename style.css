@@ -24,6 +24,13 @@ h5 {font-size: 1.5em;}
         
     }
 
+    #animate-1, #animate-2, #animate-3, #animate-4, #animate-5, #animate-6 {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s, transform 1s;
+      }
+      
+
 .navbar .navbar-brand {font-size: 1.5em;}
 
 .navbar-nav > li{
@@ -33,8 +40,38 @@ h5 {font-size: 1.5em;}
 
 .cent5 {margin-top: 20em;
        }
-.navbar a:hover {border-bottom: 1px solid rgb(216, 180, 0);
-                }
+
+
+       .w3rcontainer{
+        border: 1px solid 
+     #cccfdb;
+        border-radius: 2px;
+     } 
+     .hover-underline-animation {
+       display: inline-block;
+       position: relative;
+       color: 
+     #000000;
+     }
+     
+     .hover-underline-animation:after {
+       content: '';
+       position: absolute;
+       width: 100%;
+       transform: scaleX(0);
+       height: 2px;
+       bottom: 0;
+       left: 0;
+       background-color: 
+       #757904;
+       transform-origin: bottom right;
+       transition: transform 0.25s ease-out;
+     }
+     
+     .hover-underline-animation:hover:after {
+       transform: scaleX(1);
+       transform-origin: bottom left;
+     }
 
 .bgd {background-color: rgb(102, 96, 53);
     height:20em;
@@ -52,6 +89,27 @@ h5 {font-size: 1.5em;}
         color: white;
        margin-bottom: 2.6em;
          }
+/* FOR THE MARGIN BETWEEN NAVBAR AND CONTENT */
+
+.my-custom-class {margin-top: 180px}
+
+.colored-column {
+        background-color: #000000;
+        height: 100%;
+      }
+      
+
+#my-heading span {
+        opacity: 0;
+        transition: opacity 0.4s;
+        display: inline-block;
+        white-space: pre;
+      }
+      
+      #my-heading span.visible {
+        opacity: 1;
+      }
+      
         
         
 #carouselExampleCaptions {margin-top: 4.7em;
@@ -98,3 +156,10 @@ h5 {font-size: 1.5em;}
                     margin-left: 30em;}
                 }
     
+                .error {
+                        color: red;
+                        font-size: 12px;
+                      }
+
+
+                   
